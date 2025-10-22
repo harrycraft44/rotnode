@@ -1,0 +1,27 @@
+{
+  "name": "rotnode",
+  "version": "1.0.0",
+  "description": "A flexible ROT cipher utility (Node.js) — supports rot13, rot5, rot18, rot47 and custom charsets",
+  "main": "index.js",
+  "bin": {
+    "rotnode": "bin/rotcipher.js"
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "keywords": [
+    "rot",
+    "rot13",
+    "rot5",
+    "rot18",
+    "rot47",
+    "cipher",
+    "rotation",
+    "encoding"
+  ],
+  "author": "harrycraft44",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  }
+}
